@@ -1,0 +1,7 @@
+SELECT
+	Date,
+	Events,
+	Zip
+FROM weather
+WHERE Events LIKE 'rain' AND zip = 94301
+
